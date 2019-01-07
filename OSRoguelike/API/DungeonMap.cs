@@ -208,8 +208,8 @@ namespace OSRoguelike
         }
 
         public ICell GetRandomWalkableCell()
-        {
-            var r = new DotNetRandom();
+        {            
+            var r = Singleton.DefaultRandom;
             var walkable = GetAllCells().Where(x => x.IsWalkable);
             var index = r.Next(walkable.Count() - 1);
             var cell = walkable.ElementAt(index);
