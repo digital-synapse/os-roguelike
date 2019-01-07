@@ -3,6 +3,8 @@
 This is an early open source console mode (text based) roguelike written in C#.
 This community project is accepting pull requests!
 
+![screenshot](https://ibin.co/4Sf7I2YbVIAM.jpg)
+
 ### ASCII to the rescue
 
 The primary goal of this project is to be fun and easy to contribute. In order to simplify development, there are no graphical assests. Using ASCII art only, makes it simple for anyone to add content and has the added bonus of capturing the nostalgic feel of the early classic text based roguelikes.
